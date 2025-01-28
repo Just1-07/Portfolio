@@ -8,7 +8,10 @@
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
-
+.himage{
+  height: 250px;
+  width: 100%;
+}
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -709,6 +712,7 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  height: 350px;
 }
 
 .service-box:hover .ico-circle {
@@ -773,6 +777,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 350px;
 }
 
 .work-box:hover img {
