@@ -1339,3 +1339,14 @@ footer .credits a {
 html, body {
   overflow-x: hidden;
 }
+
+.cv-link {
+  color: #1a73e8;      /* couleur type lien */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cv-link:hover {
+  color: #0c47a1;      /* couleur au survol */
+}
+
