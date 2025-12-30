@@ -1350,3 +1350,41 @@ html, body {
   color: #0c47a1;      /* couleur au survol */
 }
 
+/* Taille uniforme des images */
+.card-img {
+  height: 200px;
+  overflow: hidden;
+}
+
+/* Image bien cadrée sans déformation */
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Toutes les cartes même hauteur */
+.card.card-blog {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Le corps prend l'espace restant */
+.card-body {
+  flex-grow: 1;
+}
+
+/* Harmonisation visuelle */
+.himage {
+  border-radius: 5px 5px 0 0;
+}
+
+.card.card-blog {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.card-blog:hover {
+  transform: rotate(-1deg) scale(1.02);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
