@@ -1389,27 +1389,3 @@ html, body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-<!-- CSS à ajouter dans ton fichier style.css ou <style> -->
-<style>
-.card-img {
-  height: 200px;
-  overflow: hidden;
-}
-.card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.card.card-blog {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.card-body {
-  flex-grow: 1;
-}
-.subtitle-a {
-  font-style: italic;
-  color: #6c757d;
-}
-</style>
