@@ -131,4 +131,10 @@ $(document).ready(function(){
 	  }
 	});
   });
-  
+  .source-badge {
+  background-color: #125da7; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
