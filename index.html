@@ -721,54 +721,126 @@
   <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
 
-      <div class="modal-header">
-        <h5 class="modal-title">Projet 5 – Entretien des imprimantes</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+<!-- Modal Header -->
+<div class="modal-header">
+  <h5 class="modal-title">Projet 5 – Entretien des imprimantes</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<!-- Modal Body -->
+<div class="modal-body">
+
+  <!-- Objectifs -->
+  <h6>Objectifs</h6>
+  <p>
+    Entretenir et vérifier le bon fonctionnement des imprimantes
+    pour garantir leur disponibilité et leur efficacité dans l’entreprise.
+  </p>
+
+  <!-- Travail Réalisé -->
+  <h6>Travail réalisé</h6>
+  <ul>
+    <li>Identifier les imprimantes nécessitant un entretien ou des réparations</li>
+    <li>Nettoyer, contrôler et remplacer les consommables si nécessaire</li>
+    <li>Tester les imprimantes pour s’assurer qu’elles fonctionnent correctement</li>
+    <li>Tenir un suivi des interventions et de l’état des équipements</li>
+  </ul>
+
+  <!-- Outils & Technologies -->
+  <h6>Outils & technologies</h6>
+  <ul>
+    <li>Imprimantes </li>
+    <li>Manuels et outils de maintenance</li>
+    <li>Logiciel de suivi des équipements </li>
+  </ul>
+
+  <!-- Compétences Mobilisées -->
+  <h6>Compétences mobilisées</h6>
+  <ul>
+    <li>C1 – Gérer le patrimoine informatique</li>
+    <li>C5 – Mettre à disposition un service informatique fiable</li>
+  </ul>
+
+  <!-- Résultats obtenus -->
+  <h6>Résultats obtenus</h6>
+  <p>
+    Les imprimantes sont fonctionnelles et mieux suivies,
+    ce qui facilite le travail des utilisateurs et réduit les pannes.
+  </p>
+
+  <!-- Bilan Personnel -->
+  <h6>Bilan personnel</h6>
+  <p>
+    Ce projet m’a permis de comprendre l’importance de l’entretien régulier des équipements
+    et de la rigueur dans le suivi. J’ai également appris à documenter les interventions pour améliorer la traçabilité et l’organisation.
+  </p>
+
+  <!-- Section Brochures / Images Téléchargeables -->
+  <h6>Brochures </h6>
+  <div class="row">
+    <div class="row text-center">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <!-- Logo de la brochure 1 -->
+        <a href="#" data-bs-toggle="modal" data-bs-target="#procedureModal1">
+          <img src="img/telechargement.png" alt="Brochure 1" class="img-fluid" style="width: 100px; height: auto;" />
+          <p>Télécharger la brochure 1</p>
+        </a>
       </div>
-
-      <div class="modal-body">
-
-        <h6>Objectifs</h6>
-        <p>
-          Entretenir et vérifier le bon fonctionnement des imprimantes
-          pour garantir leur disponibilité et leur efficacité dans l’entreprise.
-        </p>
-        
-        <h6>Travail réalisé</h6>
-        <ul>
-          <li>Identifier les imprimantes nécessitant un entretien ou des réparations</li>
-          <li>Nettoyer, contrôler et remplacer les consommables si nécessaire</li>
-          <li>Tester les imprimantes pour s’assurer qu’elles fonctionnent correctement</li>
-          <li>Tenir un suivi des interventions et de l’état des équipements</li>
-        </ul>
-        
-        <h6>Outils & technologies</h6>
-        <ul>
-          <li>Imprimantes </li>
-          <li>Manuels et outils de maintenance</li>
-          <li>Logiciel de suivi des équipements </li>
-        </ul>
-        
-        <h6>Compétences mobilisées</h6>
-        <ul>
-          <li>C1 – Gérer le patrimoine informatique</li>
-          <li>C5 – Mettre à disposition un service informatique fiable</li>
-        </ul>
-        
-        <h6>Résultats obtenus</h6>
-        <p>
-          Les imprimantes sont fonctionnelles et mieux suivies,
-          ce qui facilite le travail des utilisateurs et réduit les pannes.
-        </p>
-        
-        <h6>Bilan personnel</h6>
-        <p>
-          Ce projet m’a permis de comprendre l’importance de l’entretien régulier des équipements
-          et de la rigueur dans le suivi. J’ai également appris à documenter les interventions pour améliorer la traçabilité et l’organisation.
-        </p>
-
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <!-- Logo de la brochure 2 -->
+        <a href="#" data-bs-toggle="modal" data-bs-target="#procedureModal2">
+          <img src="img/telechargement.png" alt="Brochure 2" class="img-fluid" style="width: 100px; height: auto;" />
+          <p>Télécharger la brochure 2</p>
+        </a>
       </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <!-- Logo de la brochure 3 -->
+        <a href="#" data-bs-toggle="modal" data-bs-target="#procedureModal3">
+          <img src="img/telechargement.png" alt="Brochure 3" class="img-fluid" style="width: 100px; height: auto;" />
+          <p>Télécharger la brochure 3</p>
+        </a>
+      </div>
+    </div>
+  </div>
 
+  <!-- Modals pour afficher les procédures -->
+  <!-- Modal pour la brochure 1 -->
+  <div class="modal fade" id="procedureModal1" tabindex="-1" aria-labelledby="procedureModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="procedureModalLabel1">Procédure 1 – Entretien des imprimantes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Ajoute ici la procédure complète ou des détails -->
+          <p>
+            Voici la procédure complète pour l'entretien des imprimantes. Vous pouvez télécharger ou imprimer cette procédure si nécessaire.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal pour la brochure 2 -->
+  <div class="modal fade" id="procedureModal2" tabindex="-1" aria-labelledby="procedureModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="procedureModalLabel2">Procédure 2 – Maintenance des imprimantes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Ajoute ici la procédure complète ou des détails -->
+          <p>
+            Voici la procédure détaillée pour effectuer la maintenance des imprimantes. Téléchargez-la si nécessaire.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
     </div>
   </div>
 </div>
@@ -850,7 +922,7 @@
             </div>
             <h3 class="card-title">
               <a href="https://www.france24.com/fr/sports/20251223-can-2025-panne-var-malchance-nin"target="_blank">
-                Dommage pour un si grand tournoi" : pour le Bénin, la panne de VAR ne passe pas</a>
+                Lors du match RD Congo - Bénin à la CAN 2025, une panne de la VAR a privé le Bénin d'un penalty potentiel pour une main non sifflée. Le rétablissement tardif de la VAR a frustré les joueurs et le sélectionneur Gernot Rohr, qui ont estimé que cet incident leur a coûté un point précieux.</a>
             </h3>
           </div>
 <span class="category">Source : France24</span>
@@ -882,9 +954,7 @@
             </div>
             <h3 class="card-title">
               <a href="https://rmcsport.bfmtv.com/football/ligue-1/plusieurs-clubs-de-l1-invites-a-une-initiation-sur-la-var-mais-deux-contestataires-ont-seche-le-rendez-vous_AV-202511190716.html"target="_blank"> 
-                Plusieurs clubs de L1 invités à une initiation sur la VAR, mais deux contestataires ont séché le rendez-vous</a>
-            </h3>
-          </div>
+                Neuf clubs de Ligue 1 ont participé à une initiation à la VAR organisée par la Direction de l'Arbitrage. Le PSG, l'OM et l'OL étaient présents, tandis que Lille et Monaco ont boycotté l'événement, malgré leurs récentes critiques sur l'arbitrage. Une nouvelle réunion sur le sujet est prévue début décembre          </div>
           <span class="category">Source : RMC Sport</span>
           <div class="card-footer">
             <div class="post-author">
@@ -913,8 +983,7 @@
             </div>
             <h3 class="card-title">
               <a href="https://moselle.tv/assistance-video-thomas-leonard-partage-son-experience-darbitre-de-ligue-1/" target="_blank">
-                Assistance vidéo : Thomas Léonard partage son expérience d’arbitre de Ligue 1</a>
-            </h3>
+                Thomas Léonard, arbitre de Ligue 1, a expliqué lors d'une conférence que la VAR aide à corriger 80% des erreurs d'arbitrage, sans remplacer l'arbitre. Il a souligné son rôle pour confirmer les décisions clés comme les buts et pénaltys, et calmer les tensions sur le terrain. Il a aussi évoqué l'importance de la préparation des matchs pour garantir des décisions justes.            </h3>
           </div>
           <span class="category">Source : Moselle.tv</span>
           <div class="card-footer">
